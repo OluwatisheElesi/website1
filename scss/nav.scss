@@ -1,0 +1,43 @@
+.nav-wrapper {
+    background-color: red;
+    height:80px;
+    width: 100%;
+    
+  nav {//makes things respond to size of window
+      max-width: 980px;//or do a width of 70%
+      height:60px;
+      margin: 0 auto;
+      border-bottom: solid 2px white;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .logo {
+        position: relative;
+        width: 69px;    
+        height: 60px;
+        border: solid 2px white;
+        span {
+          position: absolute;
+          bottom:-5px;
+          width: 40px;
+          color: white;
+        }
+      }
+  
+      .links {
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        a {
+          text-decoration: none;
+          color: white;
+  
+        }
+        span {
+          color: white;
+  
+        }
+      }
+    }
+  } 

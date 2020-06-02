@@ -1,0 +1,31 @@
+.hero {
+    background-image:
+    linear-gradient(to bottom,
+     rgba(255,209, 64, 0.5),
+     rgba(255,209, 64, 0.8)),
+     url(../images/hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .centered-content {
+        width: 400px; 
+        text-align: center;
+        h1 {
+            color: white;
+        } 
+        p {
+            color: #EE4367;
+        } 
+        p1 {
+            color: white;
+        } 
+        p2 {
+            color: white;
+        }
+        }
+    }

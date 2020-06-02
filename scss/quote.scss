@@ -1,0 +1,33 @@
+.quote {
+    height: 200px;
+    background-color: white;
+    width: 100%;
+    //display: flex;
+    align-items: center;
+    display: center;
+    position: 30px;
+    justify-content: space-around;
+
+    .content {
+        max-width: 980px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    
+        .quote-text {
+            color: rgba(255,209, 64, 0.8);
+            font-style: italic;
+           
+        }
+        .author {
+                color: #EE4367;
+                position: relative;
+                width: 900px;    
+                height: 100px;
+            }
+        .title {
+                font-size: 9px;
+                
+             }
+    }
+}
